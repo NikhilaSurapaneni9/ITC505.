@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Micro+5&family=Pinyon+Script&family=Protest+Guerrilla&family=Protest+Revolution&display=swap" rel="stylesheet">
+<style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            font-family: 'Protest Guerrilla';
+            background-color: #ef9292;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        section#available-pets {
+            font-family: 'Pinyon Script';
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        .pet {
+            font-family: 'Micro 5';
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            width: 300px;
+            text-align: center;
+        }
+
+        
+    
+        .p{
+            font-family: 'Protest Revolution';
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pet Adoption Center</h1>
+        <p>Choose to adopt, and you'll have a friend for life</p>
+    </header>
+
+    <section id="available-pets">
+        <article class="pet">
+            
+            <h2>Labrador</h2>
+            <p>The Labrador Retriever is known for its friendly demeanor, intelligence, and versatility. With their affectionate nature and loyal companionship, Labradors make wonderful family pets and dedicated working dogs</p>
+            <button>Contact</button>
+        </article>
+
+        <article class="pet">
+            
+            <h2>Husky</h2>
+             <p>The Siberian Husky, with its striking appearance and captivating blue eyes, is a breed known for its endurance and friendly disposition. Originally bred as sled dogs in harsh Arctic conditions, Huskies are not only stunningly beautiful but also make affectionate and energetic companions</p>
+            <button>Contact</button>
+
+        </article>
+
+        <article class="pet">
+            
+            <h2>Ragdoll</h2>
+            <p>The Ragdoll cat breed is characterized by its docile temperament, striking blue eyes, and semi-longhair coat with color-point patterns. Known for their relaxed nature and tendency to go limp when picked up, Ragdolls make affectionate and gentle companions, earning them the nickname 'puppy cats</p>
+            <button>Contact</button>
+        </article>
+
+        <article class="pet">
+            <h2>Siamese</h2>
+            <p>The Siamese cat breed is renowned for its sleek, elegant appearance, striking blue almond-shaped eyes, and distinctive color points</p>
+            <button>Contact</button>
+        </article>
+    </section>
+    <article>
+ 
+        <footer>
+            <p>Last updated: 
+                <span id="lastModified"></span>
+            </p>
+        </footer>
+        <script type="text/javascript">
+             var x = document.lastModified;
+             document.getElementById('lastModified').textContent = x;
+        </script>
+    
+</body>
+</html>
